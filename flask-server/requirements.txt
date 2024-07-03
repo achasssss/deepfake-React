@@ -37,7 +37,7 @@ transformers
 urllib3
 Werkzeug
 # Adjusted dependencies to avoid conflicts
-typer>=0.9.0,<1.0
+typer
 gradio
-ctranslate2==4.2.1
-astunparse==1.6.3
+ctranslate2
+astunparse
