@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #05010E; /* Base color */
+  background-image: radial-gradient(
+    circle,
+    #4d4d49 0.5px,
+    #0b0e01 1px
+  ); /* Radial gradient for white dots */
+  background-size: 20px 20px; /* Size of the dots */
+}
+
+
+.container {
+  /* background-color: rgb(6, 207, 167); */
+  /* background-image: linear-gradient(rgba(219, 234, 231, 0.5), rgba(174, 243, 229, 0.8));  */
+  background-image: linear-gradient(
+    -160deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  /* border: 1px solid #ccc; */
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding-left: 30px;
+  padding-right: 50px;
+  color: #fff;
+}
+
+
+.outside-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh; 
+}
+
+.outside-container h1 {
+  margin-bottom: 0px;
+  font-size: 5.5rem;
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+
+.outside-container p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  /* font-weight: bold; */
+  margin-bottom: 10px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-group {
+  margin-top: 10px; 
+}
+
+.btn {
+  background-image: linear-gradient(to right, #00ffff, #00bfff);
+  color: #fff; /* Text color */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  position: relative;
+  transition: all 0.3s ease;
+  color: black;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn:active,
+.btn:focus {
+  outline: none;
+}
+
+.btn.disabled,
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
+.spinner {
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #fff;
+  width: 20px;
+  height: 20px;
+  animation: spin 0.8s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.btn.loading .spinner {
+  display: block;
+}
+
+.progress {
+  width: 100%;
+  height: 15px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.video-preview {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.video-preview-title {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #fff; /* Adjust the color as needed */
+}
+
+.video-preview-player {
+  width: 100%;
+  max-height: 400px; /* Adjust the height as needed */
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reset-button {
+  margin-top: 20px;
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
