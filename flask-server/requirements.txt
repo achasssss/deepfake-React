@@ -22,8 +22,7 @@ numpy
 Pillow
 pyproj
 python-dateutil
-pywin32
-pywin32-ctypes
+
 requests
 scikit-learn
 scipy
