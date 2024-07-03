@@ -16,3 +16,5 @@ torchvision
 typing-extensions
 urllib3
 Werkzeug
+Flask
+gunicorn
